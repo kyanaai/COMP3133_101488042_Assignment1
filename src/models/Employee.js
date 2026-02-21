@@ -18,7 +18,7 @@ const employeeSchema = new mongoose.Schema(
 
     dateOfJoining: { type: Date, required: true },
 
-    employeePhoto: { type: String } // will store Cloudinary URL later
+    employeePhoto: { type: String } 
   },
   { timestamps: true }
 );
