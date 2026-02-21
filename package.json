@@ -1,0 +1,32 @@
+{
+  "name": "comp3133_101488042_assignment1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@apollo/server": "^4.13.0",
+    "bcryptjs": "^3.0.3",
+    "cloudinary": "^2.9.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^4.22.1",
+    "graphql": "^16.12.0",
+    "graphql-tag": "^2.12.6",
+    "graphql-upload": "^13.0.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.1",
+    "multer": "^2.0.2",
+    "validator": "^13.15.26"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
