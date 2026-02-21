@@ -1,5 +1,3 @@
-// src/resolvers/index.js
-
 const { uploadToCloudinary } = require("../utils/cloudinaryUpload");
 const { GraphQLUpload } = require("graphql-upload");
 
