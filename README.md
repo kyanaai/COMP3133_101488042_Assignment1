@@ -9,6 +9,15 @@ It supports user authentication, employee CRUD operations, and image upload func
 
 ---
 
+## Live Deployment (Render)
+
+https://comp3133-101488042-assignment1.onrender.com/graphql
+
+Use POST requests (via Postman) to interact with the API.
+
+---
+
+
 ## Technologies Used
 
 - Node.js & Express

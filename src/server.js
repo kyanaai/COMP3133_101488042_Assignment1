@@ -22,7 +22,7 @@ async function startServer() {
 
   app.use(graphqlUploadExpress({ maxFileSize: 10_000_000, maxFiles: 1 }));
 
-  app.get("/", (req, res) => res.send("Server running 🚀"));
+  app.get("/", (req, res) => res.send("Server running"));
 
   const server = new ApolloServer({
     typeDefs,
